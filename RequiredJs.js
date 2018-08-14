@@ -5,7 +5,7 @@ alert(encodedString);
 if(encodedString=='aHR0cDovL2xpZ2h0LWJpZ2NvbW1lcmNlLXN0ZW5jaWwtdGhlbWUubXliaWdjb21tZXJjZS5jb20=') {
     alert('true');
 } else {
-    false;
+    alert('false');
 }
     
     var arr = [];
