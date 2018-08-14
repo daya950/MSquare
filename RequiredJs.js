@@ -7,7 +7,13 @@ $(document).ready(function() {
     if(arr.length > 0) {
         showHide(arr[0]);
     }
-
+    
+    $('span.form-option-variant--color').each(function() {
+        if($(this).attr("title").toLowerCase() == arr[0]) {
+            $(this).onclick();
+        }
+    }); 
+    
     $('span.form-option-variant--color').click(function() {
         showHide($(this).attr("title").toLowerCase());
     }); 
