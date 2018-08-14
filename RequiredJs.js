@@ -10,7 +10,7 @@ $(document).ready(function() {
     
     $('span.form-option-variant--color').each(function() {
         if($(this).attr("title").toLowerCase() == arr[0]) {
-            $(this).onclick();
+            $(this).trigger( "click" );
         }
     }); 
     
